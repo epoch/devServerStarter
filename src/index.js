@@ -1,5 +1,10 @@
-let thereBe = 'es2015';
+import './style.css';
 
-console.log(thereBe);
+var doSomething = () => {
+  return 'es6 arror functions working';
+}
+
+console.log('hello world! body bg colour set to tomato');
 console.log('__dirname', __dirname);
-console.log('entry point!!');
+console.log('__filename', __filename);
+console.log(doSomething());
