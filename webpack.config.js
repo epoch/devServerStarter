@@ -6,8 +6,9 @@ var webpack = require('webpack');
 // entry, file webpack looks for to bundle, default to index.js
 // output must include filename
 module.exports = {
-  entry: __dirname,
+  entry: path.join(__dirname, 'src'),
   output: {
+    path: path.join(__dirname, 'build'),
     filename: 'bundle.js',
     publicPath: '/assets/'
   },
