@@ -2,4 +2,4 @@ let thereBe = 'es2015';
 
 import path from 'path';
 
-console.log('entry point');
+console.log('entry here');

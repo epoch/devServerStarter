@@ -8,7 +8,8 @@ var webpack = require('webpack');
 module.exports = {
   entry: __dirname,
   output: {
-    filename: 'bundle.js'
+    filename: 'bundle.js',
+    publicPath: '/assets/'
   },
   module: {
     loaders: [{
