@@ -7,16 +7,20 @@
     "start": "npm run build && npm run dev",
     "dev": "webpack-dev-server --devtool eval --progress --content-base build",
     "build": "webpack",
-    "dist": "NODE_ENV=production webpack -p --config webpack.prod.config.js"
+    "dist": "NODE_ENV=production webpack -p --config webpack.prod.config.js",
+    "lint": "gulp lint"
   },
   "keywords": [],
   "author": "DT",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.5.2",
+    "babel-eslint": "^4.1.8",
     "babel-loader": "^6.2.2",
     "babel-preset-es2015": "^6.5.0",
     "css-loader": "^0.23.1",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^2.0.0",
     "html-webpack-plugin": "^2.8.1",
     "style-loader": "^0.13.0",
     "webpack": "^1.12.13",

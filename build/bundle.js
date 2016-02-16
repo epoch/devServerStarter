@@ -48,9 +48,14 @@
 
 	__webpack_require__(1);
 
-	console.log('hello world! bg colour should be tomato');
+	var doSomething = function doSomething() {
+	  return 'es6 arror functions working';
+	};
+
+	console.log('hello world! body bg colour set to tomato');
 	console.log('__dirname', __dirname);
 	console.log('__filename', __filename);
+	console.log(doSomething());
 	/* WEBPACK VAR INJECTION */}.call(exports, "/", "/index.js"))
 
 /***/ },

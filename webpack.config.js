@@ -23,7 +23,8 @@ module.exports = {
       // pass params to loader like querystring
       // instead of using .babelrc
       query: {
-        presets: ['es2015']
+        presets: ['es2015'],
+        compact: false
       }
     }, {
       test: /\.css$/,
